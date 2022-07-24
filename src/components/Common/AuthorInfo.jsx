@@ -1,10 +1,12 @@
 import React from 'react'
 
-export function AuthorInfo() {
+export function AuthorInfo({author}) {
   return (
     <>
-        <strong>Marcio Camello</strong>
-        <span>Web Developer</span>
+        {author && <>
+            <strong>{author.name}</strong>
+            <span>{author.role}</span>
+        </>}
     </>
   )
 }
