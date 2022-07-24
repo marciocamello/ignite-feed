@@ -1,4 +1,5 @@
 import React from 'react'
+import { Comment } from '../Comment';
 import { AuthorInfo } from '../Common/AuthorInfo';
 import { Avatar } from '../Common/Avatar';
 
@@ -40,6 +41,12 @@ export function Post() {
                 <button type='submit'>Publish</button>
             </footer>
         </form>
+
+        <div className={styles.commentList}>
+            <Comment />
+            <Comment />
+            <Comment />
+        </div>
     </article>
   )
 }
