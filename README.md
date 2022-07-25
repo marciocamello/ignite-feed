@@ -1,6 +1,6 @@
 # Ignite Feed
 
-![alt text](https://github.com/marciocamello/ignite-feed/blob/master/capa.png)
+![alt text](https://github.com/marciocamello/ignite-feed/blob/main/capa.png)
 
 ---
 
@@ -28,4 +28,4 @@
 
 - ReactJS
 
-This project was bootstrapped with [Create React App](https://reactjs.org/).
+This project was created using [Vite](https://vitejs.dev/).
